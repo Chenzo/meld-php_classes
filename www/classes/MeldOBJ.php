@@ -19,9 +19,18 @@ class MeldOBJ {
 
     public function __construct() 
     {
-
+        
     }
 
+    public function __destruct()
+    {
+      //echo 'The class "', __CLASS__, '" was destroyed.<br />';
+    }
+
+    public function __toString()
+    {
+        return "You can't just outout a object as a string";
+    }
 }
 
 ?>

@@ -18,8 +18,6 @@ require_once("classes/MeldOBJ.php");
        
         <section>
             <h1>Mind Meld 05.31.2018</h1>
-            
-
         </section>
 
 
