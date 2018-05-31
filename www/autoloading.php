@@ -1,5 +1,8 @@
 <?php
-require_once("classes/MeldOBJ.php");
+require_once("autoloader.php");
+
+
+$testOBJ = new MeldOBJ("Mike");
 ?>
 
 
@@ -18,6 +21,11 @@ require_once("classes/MeldOBJ.php");
        
         <section>
             <h1>Mind Meld 05.31.2018</h1>
+
+            <?php 
+
+                echo $testOBJ;
+            ?>
         </section>
 
 

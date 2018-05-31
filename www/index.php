@@ -1,5 +1,20 @@
 <?php
 
+class MeldOBJ {
+
+    public $name = "vince";
+    public $dodad = "hahaha";
+
+    public function getName() {
+        $name = "function name";
+        return "My Name is " . $this->name;
+    }
+
+}
+
+$thingOBJ = new MeldOBJ;
+
+$otherThing = new MeldOBJ;
 
 ?>
 
@@ -22,7 +37,18 @@
 
             <?php
 
+                $otherThing->name="Eric";
+
+                echo $thingOBJ->name;
                 echo "<br />";
+                echo $thingOBJ->dodad;
+                echo "<br />";
+                echo $thingOBJ->getName();
+                echo "<br />";
+                echo $otherThing->name;
+
+
+                
 
             ?>
 
